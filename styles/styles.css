@@ -1,3 +1,11 @@
+body {
+  background-color: black;
+}
+
+.index {
+  padding-top: 50px;
+}
+
 #bg {
   position: fixed;
   top: -50%;
@@ -23,7 +31,7 @@ h1 {
 	transition: font-size 1.5s;
 }
 
-h1:hover{
+h1:hover {
 	font-size: 9.25vw;
 }
 
@@ -32,6 +40,22 @@ h4 {
 	font-family: 'Josefin Sans', sans-serif;
 	padding-top: 20px;
 	padding-bottom: 10px;
+}
+
+.card-title {
+  padding-top: 10px;
+  font-family: 'Fugaz One', cursive;
+  font-size: 30pt;
+  text-align: center;
+}
+
+.card-text {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: justify;
+}
+
+.card {
+
 }
 
 .nametag {
@@ -60,6 +84,21 @@ h4 {
   transition: border-color 1s;
 }
 
+.navbar-nav {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.link-unstyled {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-unstyled:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media screen and (min-width: 400px) {
 	h1 {
 		font-size: 9vw;
@@ -69,4 +108,17 @@ h4 {
 	h1 {
 		font-size: 9vw;
 	}
+}
+@media screen and (min-width: 768px) {
+  .navbutton {
+    font-size: 2vw;
+  }
+  .card-title {
+    font-size: 4vw;
+  }
+}
+@media screen and (min-width: 576px) {
+  .portfolio {
+    padding-top: 50px;
+  }
 }
