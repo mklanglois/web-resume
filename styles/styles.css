@@ -54,8 +54,16 @@ h4 {
   text-align: justify;
 }
 
-.card {
+.btn-primary {
+  font-family: 'Josefin Sans', sans-serif;
+}
 
+.card-img-top {
+
+}
+
+.media {
+  background-color: white;
 }
 
 .nametag {
