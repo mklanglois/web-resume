@@ -6,6 +6,14 @@ body {
   padding-top: 50px;
 }
 
+.about {
+
+}
+
+.resume {
+  min-height: 100%;
+}
+
 #bg {
   position: fixed;
   top: -50%;
@@ -42,6 +50,11 @@ h4 {
 	padding-bottom: 10px;
 }
 
+.text-muted {
+  font-family: 'Josefin Sans', cursive;
+  font-size: 10pt;
+}
+
 .card-title {
   padding-top: 10px;
   font-family: 'Fugaz One', cursive;
@@ -56,10 +69,6 @@ h4 {
 
 .btn-primary {
   font-family: 'Josefin Sans', sans-serif;
-}
-
-.card-img-top {
-
 }
 
 .media {
@@ -92,6 +101,10 @@ h4 {
   transition: border-color 1s;
 }
 
+.navbar {
+  margin-bottom: 25px;
+}
+
 .navbar-nav {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
@@ -105,6 +118,48 @@ h4 {
 .link-unstyled:hover {
   text-decoration: none;
   color: inherit;
+}
+
+.footer-link {
+  text-decoration:underline;
+  color: white;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer {
+
+}
+
+.footer-resume {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.btn-circle:hover {
+  border-color: #A6DEFC;
+  border-width: 5px;
+  background-color: #A6DEFC;
+  -webkit-transition: border-color 1s;
+  -webkit-transition: border-width 1s;
+  -webkit-transition: background-color 1.5s;
+  transition: border-color 1s;
+  transition: border-width 1s;
+  transition: background-color 1.5s;
 }
 
 @media screen and (min-width: 400px) {
@@ -128,5 +183,8 @@ h4 {
 @media screen and (min-width: 576px) {
   .portfolio {
     padding-top: 50px;
+  }
+  .about {
+    padding-top: 100px;
   }
 }

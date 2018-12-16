@@ -19,14 +19,14 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top d-none d-sm-block">
         <ul class="navbar-nav justify-content-end">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">RESUME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" href="about.html">ABOUT</a>
           </li>
         </ul>
     </nav>
@@ -34,28 +34,42 @@
 		<!-- Not very DRY! Fix later. -->
 		<nav class="navbar navbar-expand-sm bg-dark navbar-dark d-block d-sm-none">
 			<ul class="navbar-nav justify-content-center">
-				<li class="nav-item active">
+				<li class="nav-item">
 					<a class="nav-link" href="portfolio.html">PORTFOLIO</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item active">
 					<a class="nav-link" href="#">RESUME</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">ABOUT</a>
+					<a class="nav-link" href="about.html">ABOUT</a>
 				</li>
 			</ul>
 		</nav>
     <!-- End Navbar -->
 
+		<!-- Begin Page Content -->
     <div class="container text-center my-5">
 
-    <a href="docs/Marisa Langlois Resume.pdf" target="_blank">
-      <button type="button" class="btn btn-primary">
-        <i class="fas fa-file-download"></i>&nbsp;Download Resume
-      </button>
-    </a>
+			<!-- Download Button -->
+	    <a href="docs/Marisa Langlois Resume.pdf" target="_blank">
+	      <button type="button" class="btn btn-primary">
+	        <i class="fas fa-file-download"></i>&nbsp;Download Resume
+	      </button>
+	    </a>
+			<!-- End Download Button -->
 
     </div>
+		<!-- End Page Content -->
+
+		<!-- Footer -->
+    <footer class="footer footer-resume">
+      <div class="container text-center">
+        <span class="text-muted">
+          Designed & Developed by <a href="about.html" class="footer-link">Marisa Langlois</a>
+        </span>
+      </div>
+    </footer>
+    <!-- End Footer -->
 
   </body>
 </html>
