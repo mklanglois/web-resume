@@ -75,6 +75,11 @@ h4 {
   background-color: white;
 }
 
+.navbar-brand {
+  font-family: 'Fugaz One', cursive;
+  text-decoration: none;
+}
+
 .nametag {
 	border: solid;
 	border-color: black;
@@ -148,6 +153,7 @@ h4 {
   border-radius: 35px;
   font-size: 24px;
   line-height: 1.33;
+  margin: 10px;
 }
 
 .btn-circle:hover {

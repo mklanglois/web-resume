@@ -17,23 +17,29 @@
 	<body class="about">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top d-none d-sm-block">
-        <ul class="navbar-nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="resume.html">RESUME</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">ABOUT</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top d-none d-sm-flex">
+			<div class="navbar-header col-2">
+				<a class="navbar-brand" href="about.html">Marisa Langlois</a>
+			</div>
+
+      <ul class="navbar-nav col-10 justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html">RESUME</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+      </ul>
     </nav>
 
-		<!-- Not very DRY! Fix later. -->
 		<nav class="navbar navbar-expand-sm bg-dark navbar-dark d-block d-sm-none">
 			<ul class="navbar-nav justify-content-center">
+				<li>
+					<a class="navbar-brand mx-0" href="about.html">Marisa Langlois</a>
+				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="portfolio.html">PORTFOLIO</a>
 				</li>
@@ -52,13 +58,19 @@
 
       <!-- Social Buttons -->
       <div class="row justify-content-center">
-        <div class="col-4 col-sm-4 my-auto text-right">
+        <div class="my-auto">
           <a href="https://www.linkedin.com/in/marisalanglois" target="_blank">
             <button type="button" class="btn btn-info btn-circle"><i class="fab fa-linkedin-in"></i></button>
           </a>
         </div>
 
-        <div class="col-4 col-sm-4 my-auto text-left">
+				<div class="my-auto">
+					<a href="https://www.goodreads.com/user/show/32332628-marisa" target="_blank">
+						<button type="button" class="btn btn-info btn-circle"><i class="fab fa-goodreads-g"></i></button>
+					</a>
+				</div>
+
+        <div class="my-auto">
           <a href="mailto:marisa@langlois.us" target="_blank">
             <button type="button" class="btn btn-info btn-circle"><i class="fas fa-envelope"></i></button>
           </a>
