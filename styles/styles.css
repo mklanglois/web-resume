@@ -139,6 +139,28 @@ h4 {
 
 }
 
+.progressbar {
+  margin-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.progress {
+  height: 85%;
+  min-height: 20px;
+}
+
+.progress-bar {
+  animation-name: animateBar;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.7s;
+}
+
+@keyframes animateBar {
+  0% { transform:translateX(-100%);}
+  100% {transform:translateX(0);}
+}
+
 .footer-resume {
   position: absolute;
   bottom: 0;
