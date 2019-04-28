@@ -67,6 +67,18 @@ h4 {
   text-align: justify;
 }
 
+.my-card {
+  padding: 10px;
+  text-align: justify;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 10px;
+}
+
+.my-card-header {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 .btn-primary {
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -123,6 +135,12 @@ h4 {
 .link-unstyled:hover {
   text-decoration: none;
   color: inherit;
+}
+
+.link-company {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .footer-link {
@@ -190,15 +208,51 @@ h4 {
   transition: background-color 1.5s;
 }
 
+img.icon {
+  width: 65px;
+  height: 65px;
+  float: center;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  opacity: 0.8;
+  z-index: 0;
+  -webkit-transition: all .4s ease;
+}
+
+img.schoolIcon {
+  height: 65px;
+  float: center;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  opacity: 0.8;
+  z-index: 0;
+  -webkit-transition: all .4s ease;
+}
+
+#performanceDetails { display:none; }
+#lincolnDetails { display:none; }
+#geniusDetails { display:none; }
+#globalDetails { display:none; }
+
 @media screen and (min-width: 400px) {
 	h1 {
 		font-size: 9vw;
 	}
+  h4 {
+    font-size: 4vw;
+  }
 }
 @media screen and (min-width: 1000px) {
 	h1 {
-		font-size: 9vw;
+		font-size: 5vw;
 	}
+  h4 {
+    font-size: 2.5vw;
+  }
 }
 @media screen and (min-width: 768px) {
   .navbutton {
@@ -215,4 +269,14 @@ h4 {
   .about {
     padding-top: 100px;
   }
+  .showHide { display:block; }
+  #performanceDetails { display:block; }
+  #lincolnDetails { display:block; }
+  #geniusDetails { display:block; }
+  #globalDetails { display:block; }
+
+  #performanceButton { display:none; }
+  #lincolnButton { display:none; }
+  #geniusButton { display:none; }
+  #globalButton { display:none; }
 }
